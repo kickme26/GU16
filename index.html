@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEN-TASK</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="script.js"></script>
+    <div id="above-searchbar">
+        <h3> GUVI Dictonary </h3>
+    </div>
+    <div id="find-meaning">
+        <form id="search-text" onsubmit="getDataDef(event)">
+            <input type="text" name="search" id="search" placeholder="Search for a word">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+    <div id="below-searchbar">
+        <div id="Search Item">
+            <h3>Search Result</h3>
+        </div>
+        <div id="Meaning"> </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+h3 {
+    text-align: center;
+    padding-top: 9%;
+}
+
+#above-searchbar {
+
+    display: block;
+    
+    width: 95%;
+    height: 200px;
+    background-color: #3A98B9;
+    padding: 12px 20px;
+}
+
+#search-text {
+    text-align: center;
+    /* width: 100%; */
+    padding: 12px 20px;
+    background-color: #316B83;
+    box-sizing: border-box;
+}
+
+#below-searchbar {
+    padding: 12px 20px;
+
+    width: 95%;
+    height: 450px;
+    background-color: #EEEEEE;
+}
